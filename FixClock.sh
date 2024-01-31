@@ -49,9 +49,10 @@ do
 done
 
 echo "\n ** Rebooting now."
-#reboot
+#reboot # Alternative hard reboot
 rm ~/Library/Preferences/ByHost/com.apple.loginwindow.*.plist # Do not reopen Windows on boot
 osascript -e 'tell application "System Events" to restart' # macOS Soft Reboot
 
 # Should never reach this point if reboot succeeds
+# Deescalate shell
 sudo -k
