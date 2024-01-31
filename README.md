@@ -8,7 +8,7 @@ _Before the first run, you must allow this script execution permission with: `ch
 
 **Run with `./FixClock.sh`** and enter your root password when prompted.
 
-**Note:** Use this script whenever you notice an issue with your machine's time synchronization, the script will not run automatically (yet).
+**Notes:** Use this script whenever you notice an issue with your machine's time synchronization, the script will not run automatically (yet). Feel free to create a Desktop shortcut by changing the extension to `.command` and placing the script wherever you'd like, or run with the full filepath (e.g. `/Applications/Utilities/Scripts/FixClock.sh`)
 
 ## How Does it Work?
 The script performs the following elevated functions:
