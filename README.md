@@ -1,7 +1,7 @@
 # macOS Time Synchronization Fix
 
 ## About
-This is a script (that I keep in `/Applications/Utilities/Scripts`) that you can runto fix a few common issues with macOS time synchronzation. I haven't quite figured out the root cause, although perhaps this is an issue with the CMOS battery? Upon some research, others have had similar issues, so I wanted to share a script I created to help speed up the fix for this issue.
+This is a script (that I keep in `/Applications/Utilities/Scripts`) that you can run to fix a few common issues with macOS time synchronzation. I haven't quite figured out the root cause, although perhaps this is an issue with the CMOS battery? Upon some research, others have had similar issues, so I wanted to share a script I created to help speed up the fix for this issue.
 
 ## Usage
 _Before the first run, you must allow this script execution permission with: `chmod +x FixClock.sh`_
